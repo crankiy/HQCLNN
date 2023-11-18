@@ -16,11 +16,11 @@ population_size_2 = 10
 K = tc.set_backend("tensorflow")
 tc.set_dtype("complex64")
 
-path = r'E:\Py_project\HQCLNN\packages_8\the_repository_of_quantum_combination_logic_gates.npz'
+path = r'/packages_8/the_repository_of_quantum_combination_logic_gates.npz'
 Column_set_all = np.load(path)
 Column_set = Column_set_all[Column_set_all.files[0]]
 
-path = r'E:\Py_project\HQCLNN\packages_8\the_connectivity_repository_of_quantum_combination_logic_gates.npz'
+path = r'/packages_8/the_connectivity_repository_of_quantum_combination_logic_gates.npz'
 direct_matrix_all = np.load(path)
 direct_matrix = direct_matrix_all[direct_matrix_all.files[0]]
 
